@@ -48,7 +48,7 @@ Quand vous déclarez votre variable dans la condition comme ceci :
 ```
 Le moteur de javascript recréé automatiquement une variable ``` var hello ``` en début de script (peu importe que la condition soit remplie ou pas). Ce qui reviendrait à faire  :
 
-```
+```javascript
 var hello = "Bonjour";
 var hello;
 
