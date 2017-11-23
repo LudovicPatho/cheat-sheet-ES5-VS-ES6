@@ -20,7 +20,7 @@ Alors, je te vois venir toi, au fond de la classe. On est en 2018, et je parle d
 
 Donc du coup, je dois renommer le titre...
 
-# Les différences entre l'ES2009 et l'ES2015
+# Les différences entre l'ES5 (ou 2009) et l'ES2015
 
 ## let, var & const
 
