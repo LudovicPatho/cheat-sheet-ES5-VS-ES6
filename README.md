@@ -52,7 +52,7 @@ var hello;
 ```
 C'est pour ça qu'on reçoit un "undefined".
 
-Copiez-collez dans votre console et observez également la différence de comportement entre ces deux boucles :
+Copiez-collez ce code dans votre console et observez également la différence de comportement entre ces deux boucles :
 
 ```javascript 
 
