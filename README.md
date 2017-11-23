@@ -51,6 +51,16 @@ Le moteur de javascript recréé automatiquement une variable ``` var hello ``` 
 ```
 var hello = "Bonjour";
 var hello;
+
+function getHello(args){
+	if (args) {
+		var hello = "Salut";
+		return hello;
+	}
+	return hello;
+}
+getHello(); // retourne "undefined"
+
 ```
 C'est pour ça qu'on reçoit un "undefined".
 
