@@ -2,6 +2,14 @@
 
 À la pointe de la technologie, tu as appris à coder en ES6. Oui mais voilà, tu te rends rapidement compte que la majorité des tutos sur le net sont eux, écrit en ES5. Et tu voudrais comprendre les différences. Ou au contraire tu as appris à coder en ES5 et tu ne comprends rien à la nouvelle syntaxe proposé par l'ES6 ? Alors ce petit tuto est fait pour toi. :) 
 
+## L'ECMAScript c'est quoi ?
+On va pas s'embêter, on va citer gentillement wikipédia : 
+
+> ECMAScript est un ensemble de normes concernant les langages de programmation de type script et 
+> standardisées par Ecma International dans le cadre de la spécification ECMA-262. Il s'agit donc d'un standard,
+> dont les spécifications sont mises en œuvre dans différents  langages de script, comme JavaScript ou ActionScript,
+> ainsi qu'en C++ (norme 2011). C'est un langage de programmation orienté  prototype.
+
 ## let, var & const
 
 ### let VS var 
