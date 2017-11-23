@@ -35,6 +35,20 @@ function getHello(args){
 getHello(); // retourne "Bonjour"
 
 ```
+Pourquoi en ES5 on reçoit un "undefined" ? 
+Quand vous déclarez votre variable dans la condition comme ceci :
+
+```javascript
+	if (args) {
+		var hello = "Salut";
+		return hello;
+	}
+```
+Le moteur de javascript recréé automatiquement une variable ``` var hello ``` en début de script. Ce qui reviendrait à faire  :
+```
+var hello = "Bonjour";
+var hello;
+```
 
 Observez également la différence de comportement entre ces deux boucles :
 
