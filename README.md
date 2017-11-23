@@ -38,7 +38,7 @@ getHello(); // retourne "Bonjour"
 
 ```
 Pourquoi en ES5 on reçoit un "undefined" ? 
-Quand vous déclarez votre variable dans la condition comme ceci :
+Quand tu déclares la variable dans une condition comme ceci :
 
 ```javascript
 	if (args) {
@@ -64,7 +64,7 @@ getHello();
 ```
 C'est pour ça qu'on reçoit un "undefined".
 
-Copie-colle ce code dans votre console et observe la différence de comportement entre ces deux boucles :
+Copie-colle ce code dans la console de ton navigateur et observe la différence de comportement entre ces deux boucles :
 
 ```javascript 
 
