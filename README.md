@@ -10,6 +10,12 @@ On va pas s'embêter, on va citer gentillement wikipédia :
 > dont les spécifications sont mises en œuvre dans différents  langages de script, comme JavaScript ou ActionScript,
 > ainsi qu'en C++ (norme 2011). C'est un langage de programmation orienté  prototype.
 
+En gros, ce sont normes qui régissent les normes de tous les languages se terminant en script comme le javascript ou l'ActionScript (RIP l'ActionScript <3 ). Ce qu'il faut surtout retenir à propos de l'ecmaspript.
+
+* L'ES5 date de 2009
+* L'ES6 date de 2015
+* En fait aujourd'hui, on ne dit plus ES6 ou ES5, mais on dit ES2015, ES2016, ES2017... Oui par ce que maintenant ceux qui gérent les normes ECMAScript ont décidé sortir une mise à jour par an. Et c'est pas plus mal comme ça. 
+
 ## let, var & const
 
 ### let VS var 
