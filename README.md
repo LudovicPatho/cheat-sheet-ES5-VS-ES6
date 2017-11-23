@@ -44,7 +44,8 @@ Quand vous déclarez votre variable dans la condition comme ceci :
 		return hello;
 	}
 ```
-Le moteur de javascript recréé automatiquement une variable ``` var hello ``` en début de script. Ce qui reviendrait à faire  :
+Le moteur de javascript recréé automatiquement une variable ``` var hello ``` en début de script (peu importe que la condition soit remplie ou pas). Ce qui reviendrait à faire  :
+
 ```
 var hello = "Bonjour";
 var hello;
