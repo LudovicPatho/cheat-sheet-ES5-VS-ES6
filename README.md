@@ -84,7 +84,7 @@ function getHello(args){
 getHello();
 
 ```
-C'est pour ça qu'on reçoit un "undefined".
+C'est pour ça qu'on reçoit un "undefined". L'utilisation du mot let règle ce problème.
 
 Mets ce code dans la console de ton navigateur et observe la différence de comportement entre ces deux boucles :
 
