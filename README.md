@@ -10,7 +10,7 @@ On va pas s'embêter, on va citer gentillement wikipédia :
 > dont les spécifications sont mises en œuvre dans différents  langages de script, comme JavaScript ou ActionScript,
 > ainsi qu'en C++ (norme 2011). C'est un langage de programmation orienté  prototype.
 
-En gros, ce sont normes qui régissent les normes de tous les languages se terminant en script comme le javascript ou l'ActionScript (RIP l'ActionScript <3 ). Ce qu'il faut surtout retenir à propos de l'ecmaspript.
+En gros, ce sont normes qui régissent tous les languages se terminant par "script" comme le javascript ou l'ActionScript (RIP l'ActionScript <3 ). Ce qu'il faut surtout retenir à propos de l'ecmaspript.
 
 * L'ES5 date de 2009
 * L'ES6 date de 2015
