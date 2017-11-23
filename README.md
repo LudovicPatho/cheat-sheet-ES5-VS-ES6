@@ -22,7 +22,7 @@ Donc du coup, je dois renommer le titre...
 
 # Les différences entre l'ES5 (ou 2009) et l'ES2015
 
-Voilà qui est mieux. On peut donc passer maintenant au vif du sujet. 
+Voilà qui est mieux. On peut donc maintenant passer au vif du sujet. 
 
 ## let, var & const
 
