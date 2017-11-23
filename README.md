@@ -1,0 +1,62 @@
+# Les différences entre l'ES5 et l'ES6
+
+À la pointe de la technologie, tu as appris à coder en ES6. Oui mais voilà, tu te rends rapidement compte que la majorité des tutos sur le net sont eux, écrit en ES5. Et tu voudrais comprendre les différences. Ou au contraire tu as appris à coder en ES5 et tu ne comprends rien à la nouvelle syntaxe proposé par l'ES6 ? Alors ce petit tuto est fait pour toi. :) 
+
+## let, var & const
+
+Quelle est la différence entre un let et var ? La réponse est simple. Il s'agit du scoop de la variable. Si vous utilisez un let, la variable sera locale, c'est à dire qu'elle sera uniquement accessible dans le bloque où vous l'avez déclarez. Par bloque j'entends, une fonction, une condition, une boucle ou un script dans le cas où vous la déclarez en début de script. Pour le var, c'est une autre histoire. C'est spécifique au JS, bon nombre de codeur étaient un peu déconcertés par ce comportement. Cela amenait à devoir nommer ses variables comme ceci  : var i, var i2, var i3 etc ... La variable let vient régler ce phénomène, en effet la portée de la variable est local si elle est déclaré dans une fonction.
+
+```javascript 
+
+// En ES6 
+
+let hello ="Bonjour";
+
+function getHello(args){
+	if (args) {
+		let hello = "Salut";
+		return hello;
+	}
+	return hello;
+}
+
+getHello(); // retourne "Bonjour"
+
+
+// En ES5
+
+var hello ="Bonjour";
+
+function getHello(args){
+	if (args) {
+		var hello = "Salut";
+		return hello;
+	}
+	return hello;
+}
+
+getHello(); // retourne "undefined"
+
+```
+
+Observez la différence de comportement entre ces deux boucles :
+
+```javascript 
+
+for (var i = 0; i <= 10; i++) {
+	for ( var i = 0; i <= 10; i++) {
+		console.log(i);
+	} 
+}
+
+```
+
+```javascript 
+
+for (let i = 0; i <= 10; i++) {
+	for ( let i = 0; i <= 10; i++) {
+		console.log(i);
+	} 
+}
+
+```
