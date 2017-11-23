@@ -59,7 +59,7 @@ function getHello(args){
 	}
 	return hello;
 }
-getHello(); // retourne "undefined"
+getHello();
 
 ```
 C'est pour ça qu'on reçoit un "undefined".
