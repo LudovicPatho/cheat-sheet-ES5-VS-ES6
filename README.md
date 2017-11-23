@@ -49,8 +49,9 @@ Le moteur de javascript recréé automatiquement une variable ``` var hello ``` 
 var hello = "Bonjour";
 var hello;
 ```
+C'est pour ça qu'on reçoit un "undefined".
 
-Observez également la différence de comportement entre ces deux boucles :
+Copiez-collez dans votre console et observez également la différence de comportement entre ces deux boucles :
 
 ```javascript 
 
