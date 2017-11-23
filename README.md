@@ -84,7 +84,7 @@ getHello();
 ```
 C'est pour ça qu'on reçoit un "undefined".
 
-Copie-colle ce code dans la console de ton navigateur et observe la différence de comportement entre ces deux boucles :
+Mets ce code dans la console de ton navigateur et observe la différence de comportement entre ces deux boucles :
 
 ```javascript 
 
