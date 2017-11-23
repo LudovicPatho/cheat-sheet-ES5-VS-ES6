@@ -16,6 +16,10 @@ En gros, ce sont normes qui régissent tous les languages se terminant par "scri
 * L'ES6 date de 2015
 * En fait aujourd'hui, on ne dit plus ES6 ou ES5, mais on dit ES2015, ES2016, ES2017... Oui par ce que maintenant ceux qui gérent les normes ECMAScript ont décidé sortir une mise à jour par an. Et c'est pas plus mal comme ça. 
 
+Donc du coup, je dois renommer le titre...
+
+# Les différences entre l'ES2009 et l'ES2015
+
 ## let, var & const
 
 ### let VS var 
