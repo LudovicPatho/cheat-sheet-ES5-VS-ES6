@@ -107,8 +107,6 @@ for (let i = 0; i <= 10; i++) {
 }
 
 ```
-
-### const 
 ### const
 
 Les constantes sont des variables ... invariables. Comme son nom l'indique les valeurs des variables constantes ne changent jamais. Elles ont pour but de réduire l'utilisation de la memoire de votre ordinateur, mais aussi d'éviter des erreurs dans votre script. 
