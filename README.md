@@ -128,7 +128,7 @@ Pour les objets, l'unique différence entre l'ES5 et l'ES2015 est sémantique.
 
 Ici on ne fait que simplifier la syntaxe. 
 
-```
+```javascript
 //En ES5
 
 var hero = {
