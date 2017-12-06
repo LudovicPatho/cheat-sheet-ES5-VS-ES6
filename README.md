@@ -109,3 +109,132 @@ for (let i = 0; i <= 10; i++) {
 ```
 
 ### const 
+### const
+
+Les constantes sont des variables ... invariables. Comme son nom l'indique les valeurs des variables constantes ne changent jamais. Elles ont pour but de réduire l'utilisation de la memoire de votre ordinateur, mais aussi d'éviter des erreurs dans votre script. 
+
+```javascript
+const url = "http://monsite/assets/img/monfichier.jpg";
+
+if (url) {
+	url = "Je change l'adresse url mais ca ne fonctionnera pas"
+} 
+//retourne : Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:4:6
+```
+
+### Les objets.
+Pour les objets, la seule différence entre l'ES5 et l'ES2015 est sémantique. 
+
+**Les méthodes**
+Ici on ne fait que simplifier la syntaxe. 
+
+```
+//En ES5
+
+var hero = {
+	name : name,
+	score : score,
+	attaque : function() {
+		// Ici votre fonction attaque
+	} 
+}
+
+//En ES2015 
+
+let hero = { 
+	name : name,
+	score : score,
+	attaque() {
+		// Ici votre fonction attaque
+	}
+}
+```
+
+Comme je le disais, il n'y a que la sémantique qui soit différente.
+
+**Les clés et valeurs**
+
+D'ailleus puisqu'on y est... On simplifie également l'écriture des clés et leurs valeurs. 
+
+```javascript 
+//En ES5 
+
+var hero = {
+	name : name,
+	score : score,
+	xp : xp
+}
+
+// En ES2015 
+let hero = {
+	name,
+	score,
+	xp
+}
+```
+C'est tout en ce qui concerne les objets.
+
+### Les fonctions fléchées.
+Plusieurs nouvelles manières d'écire les fonctions. La nouvelle syntaxe se rapproche plus de la syntaxe du C#, java 8 ou encore le coffeescript.
+
+```javascript
+En ES5
+
+var getText = function () {
+	console.log(argument);
+}
+
+En ES6
+
+let getText = (argument) => {
+	console.log(argument);
+} 
+
+// Avec un seul argument, on peut se passer des parenthèse.
+
+let getText = argument => {
+	console.log(argument);
+}
+
+// S'il n'y a qu'une seule propriété on peut également se passer des accolades et mettre la fonction sur une ligne.
+
+let getText = argument => console.log(argument);
+
+```
+
+La syntaxe pour écrire une fonction peut être déconcertante à première vue, mais on s'y fait vite. Surtout quand on voit le gain de temps. Plus besoin d'écrire le mot ```function```, ni dans les méthodes, ni dans les fonctions. Sans compter toutes les fois où j'écris ```functuin``` et que je dois corriger. S'il n'y a qu'un seul argument, on peut se passer des parenthèses également. Et s'il n'y a qu'une propriété, on peut se passer des accolades moustaches.
+
+**/!\ Avec les fonctions fléchées, il n'y a pas de this.**
+Quand vous écrivez une fonction à l'ancienne (```function (){ }```), que vous le vouliez ou non, la fonction retourne automatiquement un this et cela pouvait poser des soucis de scope. On se retouvait à faire ```let self = this;```  ou à utiliser un ```bind(this)``` pour régler le problème. Avec les fonctions fléchées ce n'est plus le cas. Quand vous utilisez un this dans une fonction fléchée, le this fait référence au this du bloque parent. 
+
+*C'est quoi un this ?*
+Difficile à expliquer.
+Pour savoir quel est la valeur de votre this,vous pouvez utiliser la fonction ```debugger```, une fonction native de javascipt qui est semblable au die() du php.
+
+### Template string 
+Eh oui, le javascript s'inspire maintenant des languages de templating. Plus besoin de concaténer avec des + les chaîne de caratères.
+
+```
+// Oldschool
+ var hello = function(name){
+ 	return "Your welcom " + name;
+ }
+ hello("Jean");
+
+// Newschool
+let hello = (name) => {
+	return `Your welcom ${name}`;
+}
+hello("Jean");
+```
+
+(Comme vu précédement, on aurait pu écrire cette dernière fonction en une seule ligne ```let hello = name => `Your Welcom ${name}`;```).
+
+### Les tableaux 
+
+
+### Les class
+
+
+
