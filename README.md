@@ -209,7 +209,7 @@ La syntaxe pour écrire une fonction peut être déconcertante à première vue,
 Quand tu écris une fonction à l'ancienne (```function (){ }```), que tu le veuilles ou non, la fonction retourne automatiquement un ```this``` et cela peut poser des soucis de scope. On se retouve à faire ```let self = this;```  ou à utiliser un ```bind(this)``` pour régler le problème. Avec les fonctions fléchées ce n'est plus le cas. Quand tu utilises un this dans une fonction fléchée, le this fait référence au this du bloque parent. 
 
 *C'est quoi un this ?*
-Difficile à expliquer.
+<-- Texte à venir --> 
 Pour savoir quelle est la valeur de ton this,tu peux utiliser la fonction ```debugger```, une fonction native de javascipt qui est semblable au die() du php.
 
 ### Template string 
