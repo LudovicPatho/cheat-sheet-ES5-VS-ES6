@@ -115,7 +115,7 @@ if (url) {
     at <anonymous>:4:6
 ```
 
-### Les objets.
+## Les objets.
 Pour les objets, l'unique différence entre l'ES5 et l'ES2015 est sémantique. 
 
 **Les méthodes**
@@ -168,7 +168,7 @@ let hero = {
 ```
 On en a fini avec les objets.
 
-### Les fonctions fléchées.
+## Les fonctions fléchées.
 Il existe de nouvelles manières d'écire les fonctions. La nouvelle syntaxe se rapproche plus de la syntaxe du C#, java 8 ou encore le coffeescript.
 
 ```javascript
@@ -206,7 +206,7 @@ Quand tu écris une fonction à l'ancienne (```function (){ }```), que tu le veu
 Contrairement à d'autres langages de programation, avec le javascript, la valeur du this peut changer selon son context.
 Pour savoir quelle est la valeur de ton this,tu peux utiliser la fonction ```debugger```, une fonction native de javascipt qui est semblable au die() du php.
 
-### Template string 
+## Template string 
 Eh oui, le javascript s'inspire maintenant des langages de templating. Plus besoin de concaténer avec des + les chaînes de caratères.
 
 ```
@@ -225,10 +225,12 @@ hello("Jean");
 
 (Comme vu précédemment, on aurait pu écrire cette dernière fonction en une seule ligne ```let hello = name => `Your Welcom ${name}`;```).
 
-### Les tableaux 
+## Les tableaux 
+### rest paramètre 
 
 
-### Les class
+
+## Les class
 
 
 
