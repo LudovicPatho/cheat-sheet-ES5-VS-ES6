@@ -18,12 +18,6 @@ En gros, ce sont des normes qui régissent tous les languages se terminant par "
 
 Alors, je te vois venir toi, au fond de la classe. On est en 2018, et je parle de l'ES2015. J'aurais donc 3 ans de retard ? Je te répondrais que non ! Tout d'abord, beaucoup de codeurs codent encore avec l'ES2009.  Et puis je te dirais que les différences entre l'ES2016 et 2015 sont minimes, même chose avec l'ES2017. (L'ES2018 n'est pas encore sorti à l'heure où j'écris ces lignes). Par contre les différences entre l'ES5 (ou 2009) et l'ES2015 sont majeures. 
 
-Du coup, je dois renommer le titre...
-
-# Les différences entre l'ES5 (ou 2009) et l'ES2015
-
-Voilà qui est mieux. On peut donc maintenant entrer dans le vif du sujet. 
-
 ## let, var & const
 
 ### let VS var 
