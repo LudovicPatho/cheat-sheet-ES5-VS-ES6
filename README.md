@@ -190,13 +190,13 @@ let getText = argument => {
 	console.log(argument);
 }
 
-// S'il n'y a qu'une seule propriété on peut également se passer des accolades et mettre la fonction sur une ligne.
+// S'il n'y a qu'une seule instruction on peut également se passer des accolades et mettre la fonction sur une ligne.
 
 let getText = argument => console.log(argument);
 
 ```
 
-La syntaxe pour écrire une fonction peut être déconcertante à première vue, mais on s'y fait vite. Surtout quand on prend conscience du gain de temps qu'elle permet. Plus besoin d'écrire le mot ```function```, ni dans les méthodes, ni dans les fonctions. Sans compter toutes les fois où l'on écrit ```functuin``` et que l'on doit le corriger. S'il n'y a qu'un seul argument, on peut même se passer des parenthèses. Et s'il n'y a qu'une propriété, on peut se passer des accolades moustaches.
+La syntaxe pour écrire une fonction peut être déconcertante à première vue, mais on s'y fait vite. Surtout quand on prend conscience du gain de temps qu'elle permet. Plus besoin d'écrire le mot ```function```, ni dans les méthodes, ni dans les fonctions. Sans compter toutes les fois où l'on écrit ```functuin``` et que l'on doit le corriger. S'il n'y a qu'un seul argument, on peut même se passer des parenthèses. Et s'il n'y a qu'une seule instruction, on peut se passer des accolades moustaches.
 
 **/!\ Avec les fonctions fléchées, il n'y a pas de ```this```.**
 
@@ -206,7 +206,7 @@ Quand tu écris une fonction à l'ancienne (```function (){ }```), que tu le veu
 Contrairement à d'autres langages de programation, avec le javascript, la valeur du this peut changer selon son context.
 Pour savoir quelle est la valeur de ton this,tu peux utiliser la fonction ```debugger```, une fonction native de javascipt qui est semblable au die() du php.
 
-## Template string 
+## Template string (ou interpollation)
 Eh oui, le javascript s'inspire maintenant des langages de templating. Plus besoin de concaténer avec des + les chaînes de caratères.
 
 ```
@@ -225,7 +225,13 @@ hello("Jean");
 
 (Comme vu précédemment, on aurait pu écrire cette dernière fonction en une seule ligne ```let hello = name => `Your Welcom ${name}`;```).
 
+## Les paramètres 
+### Les paramètres par défaut
+
+
+
 ## Les tableaux 
+
 ### rest paramètre 
 
 
