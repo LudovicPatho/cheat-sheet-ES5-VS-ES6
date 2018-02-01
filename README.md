@@ -22,7 +22,7 @@ Alors, je te vois venir toi, au fond de la classe. On est en 2018, et je parle d
 
 ### let VS var 
 
-Quelle est la différence entre un let et var ? La réponse est simple: il s'agit du scope de la variable. Si tu utilises un ```let```, la variable sera locale, c'est à dire qu'elle sera uniquement accessible dans le bloque où tu l'as déclarée. Par bloque comprends, une fonction, une condition, une boucle ou un script dans le cas où tu la déclares en début de script. Pour le  ```var```, c'est une autre histoire. Si tu déclares le ``` var ``` au sein d'une fonction, la variable sera globale ... Auparavant, cela  pouvait créer quelques bizzareries et l'on devait nommer ses variables comme ceci  : var i, var i2, var i3 etc ... 
+Quelle est la différence entre un let et var ? La réponse est simple: il s'agit du scope de la variable. Si tu utilises un ```let```, la variable sera locale, c'est à dire qu'elle sera uniquement accessible dans le bloque où tu l'as déclarée. Par bloque comprends, une fonction, une condition, une boucle ou un script dans le cas où tu la déclares en début de script. Pour le  ```var```, c'est une autre histoire. Si tu déclares le ``` var ``` au sein d'une boucle ou d'une condition, la variable sera globale ... Auparavant, cela  pouvait créer quelques bizzareries et l'on devait nommer ses variables comme ceci  : var i, var i2, var i3 etc ... 
 
 ```javascript
 
