@@ -202,7 +202,7 @@ Quand tu écris une fonction à l'ancienne (```function (){ }```), que tu le veu
 ## Template string (ou interpollation)
 Eh oui, le javascript s'inspire maintenant des langages de templating. Plus besoin de concaténer avec des + les chaînes de caratères.
 
-```
+```javascript
 // Oldschool
  var hello = function(name){
  	return "Your welcome " + name;
