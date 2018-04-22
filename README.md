@@ -250,9 +250,10 @@ Ceci ne fonctionnera pas. Il faudra automatiquement passer par une méthode cons
 // Fonctionnera 
 
 class Hello {
-	constructor(word = "hello", name ="Inconnu")
-	this.word = world,
-	this.name = name
+	constructor(word = "hello", name ="Inconnu") {
+		this.word = world,
+		this.name = name
+	}
 }
 ````
 
