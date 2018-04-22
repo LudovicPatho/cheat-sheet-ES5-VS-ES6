@@ -251,13 +251,15 @@ let hello = (name="inconnu") => {
 }
 ````
 
-### rest paramètre 
+### Spread operator 
 citation MDN 
 > Cette syntaxe permet de représenter un nombre indéfini d'arguments sous forme d'un tableau
 
+Pour les fonctions, on peut définir donc un nombre illimité d'arguments.
+
 ```javascript
 let createPersonne = () => (...personne) {
-  // personne devient un tableau avec toutes les valeurs des propriétés.
+  // personne devient un tableau avec toutes les valeurs.
 	console.log(personne[0]); // Return "Jean"
 	console.log(personne[1]); // Return 25
 	console.log(personne[2]); // Return "Célibataire" 
@@ -267,15 +269,31 @@ let createPersonne = () => (...personne) {
 createPersonne("Jean", 25, "Célibataire", "Coiffeur");
 ```
 
+Pour les tableaux, on peut faire comme ceci : 
+````javscript 
+let ingredients = ["Tomate", "Poivron", "Farine"];
+let recette = [...ingredients, "Poisson", "Sel"]; // Le tableau contiendra "Tomate", "Poivron", "Farine", "Poisson", "Sel".
+````
 
-## Les tableaux 
+Et depuis l'es2018 on peut le faire aussi avec des objets : 
+````
+let hero =  {
+	name : "Moriarty",
+	vie : 97,
+	xp : 11,
+	attaque(ennemy) {
+		//...
+	}
+}
 
+let superHero = { ...hero}
+````
 
 
 
 
 ## Les class
-Javascrpit permet désormais la création de ```class```. Toutefois, la POO en JS reste limitée et s'apparente plutôt à du prototypage amélioré. Il y a des notions de POO inéxistante pour le moment en javascript comme la notion ``public`` ou ``private``. Il n'est pas possible en js de définir directement des propriétés dans une class, on est obligé de passer un ```constructor```pour les définir (Contrairement à d'autres langages orienté objet). 
+Javascrpit permet désormais la création de ```class```. Toutefois, la POO en JS reste limitée et s'apparente plutôt à du prototypage amélioré. Il y a des notions de POO inéxistantes pour le moment en javascript comme la notion de ``public`` ou ``private``. Il n'est pas possible également de définir directement des propriétés dans une class, on est obligé de passer un ```constructor```pour les définir (Contrairement à d'autres langages orienté objet). 
 
 ````javascript
 class Hello {
