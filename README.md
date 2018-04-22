@@ -1,9 +1,6 @@
 # Les différences entre l'ES5 et l'ES6
-
-À la pointe de la technologie, tu as appris à coder en ES6. Oui mais voilà, tu te rends rapidement compte que la majorité des tutos sur le net sont eux, écrit en ES5. Et tu voudrais comprendre les différences. Ou au contraire tu as appris à coder en ES5 et tu ne comprends rien à la nouvelle syntaxe proposée par l'ES6 ? Alors ce petit tuto est fait pour toi. :) 
-
 ## L'ECMAScript c'est quoi ?
-On va pas s'embêter, on va gentillement citer wikipédia : 
+Wikipédia : 
 
 > ECMAScript est un ensemble de normes concernant les langages de programmation de type script et 
 > standardisé par Ecma International dans le cadre de la spécification ECMA-262. Il s'agit donc d'un standard,
@@ -16,7 +13,7 @@ Ce qu'il faut surtout retenir à propos de l'ecmaspript:
 * L'ES6 date de 2015
 * Aujourd'hui, on ne dit plus ES6 mais ES2015, ES2016, ES2017... Oui parce que maintenant ceux qui gérent les normes ECMAScript ont décidé de sortir une mise à jour par an. Et ce n'est pas plus mal comme ça.
 
-Alors, je te vois venir toi, au fond de la classe. On est en 2018, et je parle de l'ES2015. J'aurais donc 3 ans de retard ? Je te répondrais que non ! Tout d'abord, beaucoup de codeurs codent encore avec l'ES2009.  Et puis je te dirais que les différences entre l'ES2016 et 2015 sont minimes, même chose avec l'ES2017. (L'ES2018 n'est pas encore sorti à l'heure où j'écris ces lignes). Par contre les différences entre l'ES5 (ou 2009) et l'ES2015 sont majeures. 
+Les différences entre l'ES2016 et 2015 sont minimes, même chose avec l'ES2017. (L'ES2018 n'est pas encore sorti à l'heure où j'écris ces lignes). Par contre les différences entre l'ES5 (ou 2009) et l'ES2015 sont majeures. 
 
 ## let, var & const
 
