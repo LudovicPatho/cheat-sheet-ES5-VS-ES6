@@ -222,7 +222,7 @@ let hello = name => `Your Welcom ${name}`;
 
 ## Les paramètres 
 ### Les paramètres par défaut
-Il est désormais possible de définir directement les paramètres par défauts. Avant on était obligé de faire ceci : 
+Il est désormais possible de définir directement les paramètres par défaut. Avant on était obligé de faire ceci : 
 ```javascript
 // Sans paramètre 
 var hello = function(name) {
