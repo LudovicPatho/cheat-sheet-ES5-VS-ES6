@@ -196,7 +196,7 @@ let getText = argument => console.log(argument);
 
 ```
 
-La syntaxe pour écrire une fonction peut être déconcertante à première vue, mais on s'y fait vite. Surtout quand on prend conscience du gain de temps qu'elle permet. Plus besoin d'écrire le mot ```function```, ni dans les méthodes, ni dans les fonctions. Sans compter toutes les fois où l'on écrit ```functuin``` et que l'on doit le corriger. S'il n'y a qu'un seul argument, on peut même se passer des parenthèses. Et s'il n'y a qu'une seule instruction, on peut se passer des accolades moustaches.
+La syntaxe pour écrire une fonction peut être déconcertante à première vue, mais on s'y fait vite. Surtout quand on prend conscience du gain de temps qu'elle permet. S'il n'y a qu'un seul argument, on peut même se passer des parenthèses. Et s'il n'y a qu'une seule instruction, on peut se passer des accolades moustaches. Si on ecrit la function en une seule ligne l'instruction return est automatique, pas besoin de l'écrire. 
 
 **/!\ Avec les fonctions fléchées, il n'y a pas de ```this```.**
 
@@ -223,10 +223,11 @@ let hello = (name) => {
 hello("Jean");
 ```
 
-(Comme vu précédemment, on aurait pu écrire cette dernière fonction en une seule ligne ```let hello = name => `Your Welcom ${name}`;```).
+(Comme vu précédemment, on aurait pu écrire cette dernière fonction en une seule ligne ```let hello = name => `Your Welcom ${name}`;```). 
 
 ## Les paramètres 
 ### Les paramètres par défaut
+Il est désormais possible 
 
 
 
@@ -237,6 +238,27 @@ hello("Jean");
 
 
 ## Les class
+Javascrpit permet désormais la création de ```class```. Toutefois, la POO en JS reste limitée et s'apparente plutôt à du prototypage amélioré. Il y a des notions de POO inéxistante pour le moment en javascript comme la notion ``public`` ou ``private``. Il n'est pas possible en js de définir des propriétés dans une class, on est obligé de passer un ```constructor```pour les définir. 
+
+````javascript
+//Ne Fonctionnera pas 
+
+class Hello {
+	this.word = "hello",
+	this.name = "Inconnu"
+}
+````
+Ceci ne fonctionnera pas. Il faudra automatiquement passer par une méthode constructor.
+````javascript
+// Fonctionnera 
+
+class Hello {
+	constructor(word = "hello", name ="Inconnu")
+	this.word = world,
+	this.name = name
+}
+````
+
 
 
 
