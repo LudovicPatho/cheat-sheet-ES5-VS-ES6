@@ -260,7 +260,8 @@ let createPersonne = () => (...personne) {
   // personne devient un tableau avec toutes les valeurs des propriétés.
 	console.log(personne[0]); // Return "Jean"
 	console.log(personne[1]); // Return 25
-	console.log(personne[2]); // Return "Célibataire"
+	console.log(personne[2]); // Return "Célibataire" 
+	// ... 
 }
 
 createPersonne("Jean", 25, "Célibataire", "Coiffeur");
