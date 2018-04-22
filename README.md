@@ -337,7 +337,7 @@ console.log(say.getHello2()); //return  "Bienvenue Jean"
 Les promesses seront vues au prochain chapitre.  
 
 
-Ceci n'est pas une liste exhaustive des nouveautés de l'es2015/es2018.
+Ceci n'est pas une liste exhaustive des nombreuses nouveautés de l'es2015/es2018. Ceci n'est qu'une petite base. N'hésite à fouiner sur MDN et à suivre des devs sur twitter ou reddit àafin de tenir informé. 
 
 
 
