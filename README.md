@@ -270,7 +270,7 @@ createPersonne("Jean", 25, "Célibataire", "Coiffeur");
 ```
 
 Pour les tableaux, on peut faire comme ceci : 
-````javscript 
+````javascript 
 let ingredients = ["Tomate", "Poivron", "Farine"];
 let recette = [...ingredients, "Poisson", "Sel"]; // Le tableau contiendra "Tomate", "Poivron", "Farine", "Poisson", "Sel".
 ````
