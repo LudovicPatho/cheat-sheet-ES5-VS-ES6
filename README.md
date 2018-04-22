@@ -333,6 +333,11 @@ console.log(say.getHello()); //return  "Your welcom Jean"
 console.log(say.getHello2()); //return  "Bienvenue Jean"
 ````
 
+## Les promesses, async et await
+Les promesses seront vues au prochain chapitre.  
+
+
+Ceci n'est pas une liste exhaustive des nouveautés de l'es2015/es2018.
 
 
 
