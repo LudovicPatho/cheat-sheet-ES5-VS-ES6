@@ -1,4 +1,4 @@
-# Les différences entre l'ES5 et l'ES6
+# ES2015 et + 
 ## L'ECMAScript c'est quoi ?
 Wikipédia : 
 
