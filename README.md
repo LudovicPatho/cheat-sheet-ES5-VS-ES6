@@ -216,7 +216,7 @@ let hello = (name) => {
 hello("Jean");
 ```
 
-(Comme vu précédemment, on aurait pu écrire cette dernière fonction en une seule ligne ```let hello = name => `Your Welcom ${name}`;```). 
+(Comme vu précédemment, on aurait pu écrire cette dernière fonction en une seule ligne ```javascript let hello = name => `Your Welcom ${name}`;```). 
 
 ## Les paramètres 
 ### Les paramètres par défaut
