@@ -274,19 +274,20 @@ Pour les tableaux, on peut faire comme ceci :
 let ingredients = ["Tomate", "Poivron", "Farine"];
 let recette = [...ingredients, "Poisson", "Sel"]; // Le tableau contiendra "Tomate", "Poivron", "Farine", "Poisson", "Sel".
 ````
+On récupère donc les valeur du tableau ``ingredients`` et on peut en rajouter. 
 
 Et depuis l'es2018 on peut le faire aussi avec des objets : 
-````
+````javascript
 let hero =  {
 	name : "Moriarty",
 	vie : 97,
 	xp : 11,
-	attaque(ennemy) {
+	attaque(id) {
 		//...
 	}
 }
 
-let superHero = { ...hero}
+let hero2 = { ...hero }
 ````
 
 
