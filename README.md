@@ -222,7 +222,34 @@ let hello = name => `Your Welcom ${name}`;
 
 ## Les paramètres 
 ### Les paramètres par défaut
-Il est désormais possible 
+Il est désormais possible de définir directement les paramètres par défauts. Avant on était obligé de faire ceci : 
+```javascript
+// Sans paramètre 
+var hello = function(name) {
+	return "Your welcom " + name;
+}
+hello(); // return "Your welcom undefined"
+
+
+//On était donc obligé de faire
+var hello = function(name) {
+	if (name === "undefined") {
+		name = "Inconnu";
+	}
+
+	return "Your welcom " + name;
+}
+
+hello() // return "Your welcom inconnu"
+```
+
+Maintenant, on peut l'écrire comme ceci : 
+
+````javascript 
+let hello = (name="inconnu") => {
+	return "Your welcom " + name;
+}
+````
 
 
 
