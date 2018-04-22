@@ -276,7 +276,7 @@ let recette = [...ingredients, "Poisson", "Sel"]; // Le tableau contiendra "Toma
 ````
 On récupère donc les valeur du tableau ``ingredients`` et on peut en rajouter. 
 
-Et depuis l'es2018 on peut le faire aussi avec des objets : 
+Et depuis l'**es2018** on peut le faire aussi avec des objets : 
 ````javascript
 let hero =  {
 	name : "Moriarty",
