@@ -313,9 +313,9 @@ class Hello {
 let say = new Hello("Jean");
 console.log(say.getHello()); //return  "Your welcom Jean"
 ````
-###L'hériatge de class 
+###L'héritage de class 
 
-On peut également fair ede l'hératiage de class. La fonction ``Super()`` récupère les propriétés de la class parente.
+On peut également fair ede l'héritage de class. La fonction ``Super()`` récupère les propriétés de la class parente.
 
 ````javascript
 class SayHello extends Hello {
@@ -327,7 +327,6 @@ class SayHello extends Hello {
 		return `Bienvenue ${this.name}`
 	}
 }
-````
 
 let say = new sayHello("Jean");
 console.log(say.getHello()); //return  "Your welcom Jean"
