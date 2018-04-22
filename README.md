@@ -199,10 +199,6 @@ La syntaxe pour écrire une fonction peut être déconcertante à première vue,
 
 Quand tu écris une fonction à l'ancienne (```function (){ }```), que tu le veuilles ou non, la fonction retourne automatiquement un ```this``` et cela peut poser des soucis de scope. On se retouve à faire ```let self = this;```  ou à utiliser un ```bind(this)``` pour régler le problème. Avec les fonctions fléchées ce n'est plus le cas. Quand tu utilises un this dans une fonction fléchée, le this fait référence au this du bloque parent. 
 
-*C'est quoi un this ?*
-Contrairement à d'autres langages de programation, avec le javascript, la valeur du this peut changer selon son context.
-Pour savoir quelle est la valeur de ton this,tu peux utiliser la fonction ```debugger```, une fonction native de javascipt qui est semblable au die() du php.
-
 ## Template string (ou interpollation)
 Eh oui, le javascript s'inspire maintenant des langages de templating. Plus besoin de concaténer avec des + les chaînes de caratères.
 
@@ -235,27 +231,27 @@ Il est désormais possible
 
 
 ## Les class
-Javascrpit permet désormais la création de ```class```. Toutefois, la POO en JS reste limitée et s'apparente plutôt à du prototypage amélioré. Il y a des notions de POO inéxistante pour le moment en javascript comme la notion ``public`` ou ``private``. Il n'est pas possible en js de définir des propriétés dans une class, on est obligé de passer un ```constructor```pour les définir. 
+Javascrpit permet désormais la création de ```class```. Toutefois, la POO en JS reste limitée et s'apparente plutôt à du prototypage amélioré. Il y a des notions de POO inéxistante pour le moment en javascript comme la notion ``public`` ou ``private``. Il n'est pas possible en js de définir directement des propriétés dans une class, on est obligé de passer un ```constructor```pour les définir (Contrairement à d'autres langages orienté objet). 
 
 ````javascript
-//Ne Fonctionnera pas 
-
 class Hello {
-	this.word = "hello",
-	this.name = "Inconnu"
-}
-````
-Ceci ne fonctionnera pas. Il faudra automatiquement passer par une méthode constructor.
-````javascript
-// Fonctionnera 
-
-class Hello {
-	constructor(word = "hello", name ="Inconnu") {
-		this.word = world,
-		this.name = name
+	constructor(name ="Inconnu") {
+		this.name = name,
+	}
+	
+	getHello () {
+		return `Your welcom ${this.name}`
 	}
 }
+
+
+let say = new Hello("Jean");
+console.log(say.getHello()); //return  "Your welcom Jean"
 ````
+
+
+
+
 
 
 
