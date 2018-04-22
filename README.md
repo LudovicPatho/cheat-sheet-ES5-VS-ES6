@@ -15,6 +15,8 @@ Ce qu'il faut surtout retenir à propos de l'ecmaspript:
 
 Les différences entre l'ES2016 et 2015 sont minimes, même chose avec l'ES2017. (L'ES2018 n'est pas encore sorti à l'heure où j'écris ces lignes). Par contre les différences entre l'ES5 (ou 2009) et l'ES2015 sont majeures. 
 
+![Es2015](http://egorsmirnov.me/assets/berlin-angular-meetup-26/images/es2015.jpg)
+
 ## let, var & const
 
 ### let VS var 
