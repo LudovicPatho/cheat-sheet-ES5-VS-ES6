@@ -100,13 +100,13 @@ for (let i = 0; i <= 10; i++) {
 ```
 ### const
 
-Les constantes sont des variables ... invariables. Comme son nom l'indique les valeurs des constantes ne changent jamais. Elles ont pour but de réduire l'utilisation de la memoire de ton ordinateur, mais aussi d'éviter des erreurs dans ton script. 
+Les constantes sont des variables ... invariables. Comme son nom l'indique les valeurs des constantes ne changent jamais. Elles ont pour but de réduire l'utilisation de la memoire de ton ordinateur, mais aussi d'éviter des erreurs dans ton script. Par convention, on peut les écrire en majuscules. Ce n'est ps une obligation, mais ça permet de différencier en coup d'oeil les constantes et les variables.
 
 ```javascript
-const url = "http://monsite/assets/img/monfichier.jpg";
+const URL = "http://monsite/assets/img/monfichier.jpg";
 
 if (url) {
-	url = "Je change l'adresse url mais ca ne fonctionnera pas"
+	URL = "Je change l'adresse url mais ca ne fonctionnera pas"
 } 
 //retourne : Uncaught TypeError: Assignment to constant variable.
     at <anonymous>:4:6
@@ -251,11 +251,25 @@ let hello = (name="inconnu") => {
 }
 ````
 
+### rest paramètre 
+citation MDN 
+> Cette syntaxe permet de représenter un nombre indéfini d'arguments sous forme d'un tableau
+
+```javascript
+let createPersonne = () => (...personne) {
+  // personne devient un tableau avec toutes les valeurs des propriétés.
+	console.log(personne[0]); // Return "Jean"
+	console.log(personne[1]); // Return 25
+	console.log(personne[2]); // Return "Célibataire"
+}
+
+createPersonne("Jean", 25, "Célibataire", "Coiffeur");
+```
 
 
 ## Les tableaux 
 
-### rest paramètre 
+
 
 
 
